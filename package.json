@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server":"nodemon server.js"
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.11",
+    "mongoose-update-if-current": "^1.4.0",
     "request": "^2.88.2"
   }
 }
